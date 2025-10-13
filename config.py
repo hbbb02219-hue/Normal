@@ -45,6 +45,9 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ganaasupport")
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
+API_URL = os.getenv("API_URL", 'https://api.thequickearn.xyz')
+VIDEO_API_URL = os.getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = os.getenv("API_KEY", "NxGBNexGenBotse3faeb")
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
